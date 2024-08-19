@@ -1122,37 +1122,37 @@ swiper-slide {
 }
 
 swiper-slide:nth-child(1n) {
-  background: url(../assets/imgs/web3.webp);
+  background: url(../imgs/web3.webp);
   background-position: top;
   background-size: cover;
 }
 
 swiper-slide:nth-child(2n) {
-  background: url(../assets/imgs/web6.webp);
+  background: url(../imgs/web6.webp);
   background-position: top;
   background-size: cover;
 }
 
 swiper-slide:nth-child(3n) {
-  background: url(../assets/imgs/web1.webp);
+  background: url(../imgs/web1.webp);
   background-position: top;
   background-size: cover;
 }
 
 swiper-slide:nth-child(4n) {
-  background: url(../assets/imgs/web4.webp);
+  background: url(../imgs/web4.webp);
   background-position: top;
   background-size: cover;
 }
 
 swiper-slide:nth-child(5n) {
-  background: url(../assets/imgs/web5.webp);
+  background: url(../imgs/web5.webp);
   background-position: top;
   background-size: cover;
 }
 
 swiper-slide:nth-child(6n) {
-  background: url(../assets/imgs/web2.webp);
+  background: url(../imgs/web2.webp);
   background-position: top;
   background-size: cover;
 }
