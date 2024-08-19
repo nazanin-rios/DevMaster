@@ -492,7 +492,6 @@ a li {
   color: var(--clr-body);
   font-size: 1.8rem;
   cursor: pointer;
-  
 }
 
 @media screen and (min-width: 768px) {
@@ -848,12 +847,7 @@ a li {
 /* ******************** */
 
 .about-us {
-  background-color: #00000063;
-  background-image: url(../assets/imgs/bakground\ fixed.webp);
-  background-size: cover;
-  background-blend-mode: multiply;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-color: var(--clr-main) !important;
   border-radius: 20px;
   padding-inline: 10px;
   padding-block: 10px;
@@ -984,8 +978,6 @@ a li {
   }
 
   .about-us {
-    background: url(..sets/imgs/bakground\ fixed.jpg);
-
     background-color: var(--clr-main) !important;
   }
 }
@@ -1110,11 +1102,12 @@ a li {
   padding: 10px;
   padding-block: 45px;
   margin-bottom: 50px;
+  overflow-x: hidden;
 }
 
 swiper-container {
-  width: 240px;
-  height: 320px;
+  width: 170px;
+  height: 270px;
   margin-top: 50px;
 }
 
@@ -1310,6 +1303,11 @@ swiper-slide:nth-child(6n) {
 
   .our-work-text {
     width: 50%;
+  }
+
+  swiper-container {
+    width: 240px;
+    height: 320px;
   }
 }
 
